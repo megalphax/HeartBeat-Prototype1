@@ -76,6 +76,8 @@ addElements("Gameplay", "Timer")
 
 ---- /Timer ----
 
+---- Test ----
+
 effect_unfade_play(1)
 
 attack.vertical_beam(2, LARGEUR/2, 50, 20, 1)
@@ -95,3 +97,5 @@ newTimedEvent(3, function() mm_effect.reverse = true end)
 newTimedEvent(4, function() getElement("Player").fightMode = true end)
 
 currentScene = getScene("Game")
+
+---- /Test ----
